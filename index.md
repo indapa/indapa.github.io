@@ -2,7 +2,7 @@
 layout: default
 ---
 
-# Welcome to My Blog
+<h1>Posts</h1>
 
 {% for post in site.posts %}
   <article>

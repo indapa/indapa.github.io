@@ -1,7 +1,8 @@
 ---
 layout: post
-title: "Your Blog Post Title"
+title: "Hello World"
 date: 2025-01-17
 ---
 
-Hello world!
+Learning how to use Jekyll and GitHub Pages to create a blog. This is my first post. 
+
