@@ -21,9 +21,13 @@ But today I made a public Docker image with the PacBio secondary analysis tools 
 
 - [pbvsv](https://github.com/PacificBiosciences/pbsv)
 
+- [hiphase](https://github.com/PacificBiosciences/HiPhase)
+
 - [trgt](https://github.com/PacificBiosciences/trgt)
 
 - [pb-CpG-tools](https://github.com/PacificBiosciences/pb-CpG-tools)
+
+-
 
 Here is the URI for the Docker image:
 
