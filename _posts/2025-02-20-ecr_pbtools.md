@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Docker images with PacBio secondary analysis tools"
+title: "Docker image with PacBio secondary analysis tools"
 date: 2025-02-20
 author: "Amit Indap"
 tags:
