@@ -9,7 +9,7 @@ tags:
 ---
 
 I've been working a lot with PacBio Hifi data lately. 
-After having zero experience with PacBio secondary analysis, I've implemented a [WGS](https://github.com/indapa/nextflow-hifi-wgs) and [RNA-seq](https://github.com/indapa/nextflow-isoseq-indapa) Nextflow pipeline. 
+After having zero prior experience with PacBio secondary analysis up until about 7 months ago, I've implemented a [WGS](https://github.com/indapa/nextflow-hifi-wgs) and [RNA-seq](https://github.com/indapa/nextflow-isoseq-indapa) Nextflow pipeline. 
 
 Those pipelines utilize [Seqera Wave containers](https://seqera.io/wave/), that are built on the fly as the pipeline runs.
 
