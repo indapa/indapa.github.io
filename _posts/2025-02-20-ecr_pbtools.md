@@ -19,7 +19,7 @@ But today I made a public Docker image with the PacBio secondary analysis tools 
 
 - [hificnv](https://github.com/PacificBiosciences/HiFiCNV)
 
-- [pbvsv](https://github.com/PacificBiosciences/pbsv)
+- [pbsv](https://github.com/PacificBiosciences/pbsv)
 
 - [hiphase](https://github.com/PacificBiosciences/HiPhase)
 
