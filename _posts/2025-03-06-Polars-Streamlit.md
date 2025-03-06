@@ -59,7 +59,7 @@ def plotly_quarterly_comparative_production():
        
         
   
-)
+    )
 
     year_quarter_df=q.collect() #execute the lazy computation
     
@@ -67,7 +67,7 @@ def plotly_quarterly_comparative_production():
     fig.update_layout(xaxis_title="Quarter", yaxis_title="Quarterly Production (kWh)")
     st.plotly_chart(fig)
 
-    ```
+```
 
-    Anyways, this is was a good exercise to learn Polars. I'm definitely looking forward to using Polars in future projects. Feel free to checkout the [source code](https://github.com/indapa/SolarProduction/) and you can see the app in action [here](https://indapa-solar.streamlit.app/).
+Anyways, this is was a good exercise to learn Polars. I'm definitely looking forward to using Polars in future projects. Feel free to checkout the [source code](https://github.com/indapa/SolarProduction/) and you can see the app in action [here](https://indapa-solar.streamlit.app/).
     
