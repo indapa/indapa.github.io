@@ -12,7 +12,7 @@ tags:
 
 In an earlier post, I talked about using GitHub Actions to build and push Docker images. But I didn't talk about what code was in the Docker image and what is was doing.  That's what this post is for. 
 
-I'm a big fan of CellXGene[https://cellxgene.cziscience.com/], an open-science resource of single-cell transcriptomics data. It has tools and APIs to analyze and visualize single-cell RNA-seq data. [CellXGene Census](https://chanzuckerberg.github.io/cellxgene-census/index.html) is an API that allows users to programmatically access the CellXGene data. 
+I'm a big fan of [CellXGene](https://cellxgene.cziscience.com/), an open-science resource of single-cell transcriptomics data. It has tools and APIs to analyze and visualize single-cell RNA-seq data. [CellXGene Census](https://chanzuckerberg.github.io/cellxgene-census/index.html) is an API that allows users to programmatically access the CellXGene data. 
 
 I used the  [Census Python API](https://chanzuckerberg.github.io/cellxgene-census/cellxgene_census_docsite_quick_start.html#python-quick-start) to calculate average gene expression and percentage of cells expressing a gene in a particular tissue and cell type. 
 
