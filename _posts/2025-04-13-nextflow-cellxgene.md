@@ -63,6 +63,19 @@ CellXGene is a great open science resource for single-cell transcriptomics data.
 
 I'm a big fan of CellXGene and TileDB-SOMA for analyzing single-cell transcriptomics data. I hope to continue to work with these APIs in the future to help analyze and visualize single-cell data.
 
+See my GiHub repo that has the Nextflow workflow and Python code here: [indapa-CellXGene](https://github.com/indapa/indapa-CellXGene)
+
+## References
+
+* [CellXGene Census](https://chanzuckerberg.github.io/cellxgene-census/index.html)
+
+* [CellXGene Census Python API](https://chanzuckerberg.github.io/cellxgene-census/cellxgene_census_docsite_quick_start.html#python-quick-start)
+
+* [CellXGene publication](https://doi.org/10.1093/nar/gkae1142)
+
+* [TileDB SOMA](https://github.com/single-cell-data/TileDB-SOMA?tab=readme-ov-file)
+
+
 
 
 
