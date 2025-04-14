@@ -34,9 +34,9 @@ I followed the data processing and normalization methodology outlined in the Cel
 
 ### Cell ontology rollup
 
-Cell types in CellXGene are mapped onto the [Cell Ontology (CL)](https://www.ebi.ac.uk/ols4/ontologies/cl), which is a tree structure that describes the relationships between cell types. The Cell Ontology is a controlled vocabulary for describing cell types and their relationships. The Cell Ontology is used to roll up cell types into broader categories. For example, the cell type "B cell" is a child of the broader category "lymphocyte".
+Cell types in CellXGene are mapped onto the [Cell Ontology (CL)](https://www.ebi.ac.uk/ols4/ontologies/cl), which is a tree structure that describes the relationships between cell types. The Cell Ontology is a controlled vocabulary for describing cell types and their relationships. The Cell Ontology is used to "roll up" cell types into broader categories. For example, the cell type "B cell" is a child of the broader category "lymphocyte".
 
-When doing a query for a particular tissue and cell type, the Cell Ontology is used to roll up the cell types into broader categories. For example, if you query for "B cell" in "blood", the results will include all B cells in blood, as well as all lymphocytes in blood. This allows for a better measurement of gene expession metrics of low-granularity cell types annotations. 
+When doing a query for a particular tissue and cell type, I use the the [Owlready2 package](https://owlready2.readthedocs.io/en/v0.47/ )  to navigate the Cell Ontology. For example, if you query for "B cell" in "blood", the results will include all B cells in blood, as well as all lymphocytes in blood. This allows for a better measurement of gene expession metrics of low-granularity cell types annotations. CellXGene also has a nice [cell guide](https://cellxgene.cziscience.com/cellguide) that shows the relationships between cell types and their parent categories on the Cell Ontology that are in the Census. 
 
 ### Python implementation of data processing pipeline
 
