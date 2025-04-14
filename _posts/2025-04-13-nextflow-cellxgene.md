@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "My first GitHub Actions"
-date: 2025-04-08
+title: "CellXGene Census data processing pipeline with Nextflow"
+date: 2025-04-13
 author: "Amit Indap"
 tags:
   - Python
