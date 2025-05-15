@@ -7,7 +7,7 @@ tags:
   - SeqeraAI
   - Nextflow
   - Groovy
- ---
+---
 
  I had a LinkedIn [post](https://www.linkedin.com/posts/aindap_github-nextflow-iopatterns-a-curated-activity-7324199462325669888-fwOM?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAASW-wBf3YPPqgSpB2CcVl-jJrrxf_XC94) a few weeks ago about design patterns in Nextflow described in this [repo](https://github.com/nextflow-io/patterns?tab=readme-ov-file) To my suprise, it went kinda viral by my modest standards - 40 likes and 2400 impressions. 
 
