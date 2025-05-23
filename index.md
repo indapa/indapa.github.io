@@ -2,8 +2,7 @@
 layout: default
 ---
 
-<h1>GitHub Contributions</h1>
-<div class="calendar">Loading the data just for you.</div>
+
 
 
 
