@@ -8,7 +8,7 @@ tags:
 ---
 
 I'm still be doing a lot Nextflow development lately for [PacBio HiFi](https://www.pacb.com/technology/hifi-sequencing/) WGS secondary analysis. 
-My workflow is pretty involved, starting from un-alingned reads in BAM format, performing reference guided alignment, and then proceeding with DNA short variant calling, CNV and structural variant calling, and CpG and 6mA methylation calling.
+My workflow farily comprehensive, starting from un-aligned reads in BAM format, performing reference guided alignment, and then proceeding with DNA short variant calling, CNV and structural variant calling, and CpG and 6mA methylation calling.
 
 Today, I finally got around to adding a [stub section](https://www.nextflow.io/docs/latest/process.html) to my Nextflow processes to test and ensure the accuracy and worflow logic without having to run the actual process commands. 
 
