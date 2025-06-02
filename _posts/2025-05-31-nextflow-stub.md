@@ -114,3 +114,7 @@ Before, when I was running my workflow without stubs, I would have first have to
 
 My only regret is that I wish I would starting using stubs earlier when implementing workflows. 
 
+![Why did your pipeline break?](/docs/assets/pipeline_broke.png) Credit to [Ilya Captain](https://www.linkedin.com/posts/dricaptain_mine-is-im-surprised-that-it-worked-in-activity-7334246175157432321-JK60?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAASW-wBf3YPPqgSpB2CcVl-jJrrxf_XC94)
+
+
+
