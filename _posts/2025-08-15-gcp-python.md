@@ -25,8 +25,7 @@ to deploy my apps.
 
 Also, I've been getting into GitHub actions more and more lately, and was able to add workflows that would rebuild and deploy my containerized applications whenever I push a change to my repo. 
 
-While all of my applications are fairly simple, they have a huge potential  to streamline how the PTA has operated in the past. For example, the previous year we have had to keep hard copies of receipts 
-for reimbursements in a huge 3 ring binder. Now, we can store those in a cloud bucket and easily trace who submitted what and when. 
+While all of my applications are fairly simple, they have a huge potential  to streamline how the PTA has operated in the past. For example, I've written an app to submit volunteer hours and other one that reads the Google sheet of hours and plots them. 
 
-All this has made me a big fan of GCP, because I find the consol UI to be a lot simplier than AWS and I'm able learn new services farily quickly. 
+All this has made me a big fan of GCP, because I find the console UI to be a lot simplier than AWS and I'm able learn new services farily quickly. 
 And I'm pretty sure we are the only school in the district with a  [Github repo](https://github.com/hagepta) account. 
