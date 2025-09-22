@@ -60,7 +60,7 @@ google {
     }
 }
 
-workDir = 'gs://dd-sarek-workdir'
+workDir = 'gs://sarek-workdir'
 
 // Logging
 log.level = 'DEBUG'
