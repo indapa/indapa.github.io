@@ -59,11 +59,10 @@ WITH_COLUMNS:
 Reading this plan from the bottom up, Polars first registers the raw GTF data source (`Csv SCAN`) and prepares to project the required columns.
 As the data flows upward into the `WITH_COLUMNS` step, Polars bundles type casting, handling null ('.') columns, and  regex string extraction into a single, highly parallelized expression layer. 
 
-Crucially, because we are using Polars' Lazy API, this entire layout is just a blueprint. 
-When we finally chain our downstream filters and selections, Polars applies [optimizations](https://docs.pola.rs/user-guide/lazy/optimizations/) like **projection pushdown** (only loading the columns we ask for) and **predicate pushdown**. 
+Polars' Lazy API doesn't execute this right away. Once downstream filters and selections are chained together,  Polars applies [optimizations](https://docs.pola.rs/user-guide/lazy/optimizations/) like **projection pushdown** (only loading the columns we ask for) and **predicate pushdown**. 
 Predicate pushdown is an optimization technique where Polars moves your filter criteria (`.filter()`) as close to the physical data source as possible.
 Instead of loading the entire  GTF file into memory and filtering for transcripts afterward, Polars pushes that condition down to the file-reader level.
-Rows that aren't transcripts are dropped on the fly while the file is being streamed, drastically slashing both memory usage and execution time.
+Rows that aren't transcripts are dropped improving both  memory usage and execution time.
 
 Comparing eager vs. lazy evaluation in Polars, along with Pandas:
 
