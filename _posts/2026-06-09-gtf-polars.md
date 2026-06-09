@@ -42,7 +42,7 @@ lf = parse_gtf("gencode.v39.annotation.sorted.gtf", attributes_to_extract=["gene
 df = (lf.filter(pl.col("feature") == 'transcript').select(['seqname', 'start','end','gene_id', 'gene_name']).collect())
 ```
 
-Once we call ```collect``, Polars optimizes the execution plan behind the scenes to return the data frame we need. 
+Once we call ```collect```, Polars optimizes the execution plan behind the scenes to return the data frame we need. 
 
 If you call [explain](https://docs.pola.rs/api/python/stable/reference/lazyframe/api/polars.LazyFrame.explain.html), you can see execution plan of how Polars plans its query:
 
@@ -72,7 +72,7 @@ import pandas as pd
 import polars as pl
 from gtf_polars import parse_gtf
 
-file_path = "/Users/indapa/2X_health/Sandbox/IsoSeq/gencode.v39.annotation.sorted.gtf"
+file_path = "gencode.v39.annotation.sorted.gtf"
 attributes = ["gene_id", "gene_name"]
 gtf_columns = ["seqname", "source", "feature", "start", "end", "score", "strand", "frame", "attributes"]
 
