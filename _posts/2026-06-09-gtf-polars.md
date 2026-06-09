@@ -16,9 +16,9 @@ Column number	Column name	Details
 
 ```
 
-I needed to parse GTF file from my [isoseq](https://isoseq.how/)  pipeline because I needed to map transcript id to gene name. With the help of
+I needed to parse GTF file from my [isoseq](https://isoseq.how/)  pipeline because I needed to map transcript id to gene name. I used 
 [GitHub Copilot Agent Mode](https://github.com/features/copilot/agents) to implement a GTF parser that uses [Polars Lazy API](https://docs.pola.rs/user-guide/concepts/lazy-api/)
-The repo is [here](https://github.com/indapa/gtf-polars) and the relevant code is below:
+The repo is [here](https://github.com/indapa/gtf-polars). The most  relevant code is below:
 
 ```
   lf = pl.scan_csv(
