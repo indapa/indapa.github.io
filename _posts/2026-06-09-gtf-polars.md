@@ -143,7 +143,7 @@ print(f"Polars Eager (read_csv): {pl_eager_duration:.4f} seconds")
 print(f"Polars Lazy (scan_csv) : {pl_lazy_duration:.4f} seconds")
 ```
 
-We get the following:
+The results speak for themselves:
 
 | Framework / Mode | Execution Time | Speedup vs. Pandas | Performance Paradigm |
 | :--- | :--- | :--- | :--- |
@@ -152,6 +152,6 @@ We get the following:
 | **Polars Lazy** (`scan_csv`) | **1.4517s** | **8.8x faster** | Streaming execution graph with predicate & projection pushdowns. |
 
 
-
+Remember, [laziness is a virtue](https://thethreevirtues.com/).
 
 
