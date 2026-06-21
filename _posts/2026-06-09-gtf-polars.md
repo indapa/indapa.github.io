@@ -155,3 +155,12 @@ The results speak for themselves:
 Remember, [laziness is a virtue](https://thethreevirtues.com/).
 
 
+** Update **
+
+gtf-polars is now on PyPi: [https://pypi.org/project/gtf-polars/](https://pypi.org/project/gtf-polars/)
+
+```
+pip install gtf-polars
+```
+
+
